@@ -1,0 +1,88 @@
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "global";
+@import "media";
+
+// BASE
+.btn {
+    background-color: $purple;
+    font-weight: 700;
+    color: $white;
+    border-radius: 16px;
+    transition: background-color $animation,
+    color $animation;
+    &:hover {
+        background-color: $white;
+        color: $purple;
+        transition: background-color $animation,
+        color $animation;
+    }
+}
+
+// HEADER
+.header {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 17px 0;
+    }
+    &__inner-wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__link {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        padding: 11px 20px 10px 20px;
+        margin-left: 35px;
+        margin-right: 30px;
+    }
+}
+// LOGO
+.logo {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: $blue;
+}
+// SEARCH 
+.search {
+    &-box {
+        margin-right: 25px;
+        background-color: #F4F4F4;
+        border-radius: 16px;
+        padding: 10px 17px;
+        max-width: 315px;
+        display: flex;
+        align-items: center;
+    }
+    &-text {
+        border: none;
+        background: transparent;
+        outline: none;
+        width: 100%;
+        margin-right: 20px;
+    }
+}
+// MENU
+.menu {
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+    &__list-item {
+        padding: 0 15px;
+    }
+    &__list-link {
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        color: $gray;
+    }
+}

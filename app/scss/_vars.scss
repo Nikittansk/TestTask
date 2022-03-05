@@ -1,0 +1,12 @@
+// Основные цвета
+$gray: #959595;
+$white: #fff;
+$purple: #673BB7;
+$black: #002946;
+$blue: #000E88;
+$text-gradient: linear-gradient(90deg, rgba(136,52,162,1) 0%, rgba(217,34,110,1) 100%);
+
+// Анимация
+$animation-speed: 0.4s;
+$animation-func: ease;
+$animation: $animation-speed $animation-func;
